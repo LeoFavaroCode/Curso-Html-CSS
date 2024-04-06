@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+
+    <!-- 
+        colspan: Faz com que o elemento da tabela ocupe mais de uma coluna, depende do valor que passar.
+        rowspan: Faz com que o elemento da tabela ocupe mais de uma linha, depende do valor que passar.
+        Verifique no exemplo abaixo.
+     -->
+
+    <table>
+        <thead>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>L</td>
+            </tr>
+        </thead>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>

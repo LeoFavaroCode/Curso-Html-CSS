@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente dimunua o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png " alt="Imagem flexível">
+    </picture>
+
+        <h1>Reproduzindo Áudio</h1>
+        <p>Reproduzindo audio em HTML</p>
+        <audio src="country.mp3" controls ></audio> <br>
+
+        <!-- Outra maneira de inserir aúdio -->
+        <audio preload="metadata" controls loop>
+            <source src="country2.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- No atributo preload é importante utilizar o "metadata", pois assim ele só carrega o aúdio quando o usuário clicar no play, fazendo com que o carregamento do site fique mais rápido. O padrão é o "auto" que ja carrega o site de uma vez junto com o áudio, mas fazendo com que fique mais demorado para o usuário acessar o site  -->
+</body>
+</html>

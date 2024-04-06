@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em JavaScript</p>
+
+<!-- <code> faz com que o espaçamento das letras entre elas seja igual independente do tamanho, isso faz com que o texto se torne mais legível -->
+
+    <code>
+        num = int(input('Digite um número: '))
+        if num % 2 ==0:
+            print(f'o número {num} é par')
+        else:
+            print(f'o número {num} é impar')
+        print('Fim do programa')
+    </code>
+
+<!-- Porém a tag code não deixa o código indentado como escrito acima, para isso é usado a tag pre descrita abaixo. Os mesmos espaços que foram usados no código, ela utiliza no site. -->
+
+    <pre>
+        <code>
+            num = int(input('Digite um número: '))
+            if num % 2 ==0:
+                print(f'o número {num} é par')
+            else:
+                print(f'o número {num} é impar')
+            print('Fim do programa')
+        </code>
+    </pre>
+    
+    <h2>Citações simpples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <!-- Quando for citações de alguém utilizar a tag <q>, mesmo que ela coloque só as aspas, isso da um sentido à frase de um visão do HTML, como se o navegador visse aquela frase com diferentes "olhos"-->
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou curtindo!</p>
+    <!-- Tag <abbr> usado quando é colocado uma abreviação em algum texto, e quando o usuário passar o mouse em cima da sigla verá o significado dela -->
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+</body>
+</html>

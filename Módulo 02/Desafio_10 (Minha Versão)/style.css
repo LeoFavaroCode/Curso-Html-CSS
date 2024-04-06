@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'idroid';
+    src: url('fonts/idroid.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: auto;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3BD47F, #2A965A, #1A5C37);
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'idroid', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.400)
+}
+
+#sub{
+    text-align: center;
+    display: block;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 6px 3px 6px rgba(0, 0, 0, 0.400);
+}
+
+nav{
+    padding-top: 35px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+h2{
+    font-family: 'idroid', Arial, sans-serif;
+    color:  #1A5C37;
+    text-align: left;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 9px 16px 2px rgba(0, 0, 0, 0.371);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#introducao{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+h3{
+    background-image: linear-gradient(to right, #dbf3e6, white);
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'idroid', Arial, sans-serif;
+    color:  #1A5C37;
+    padding-left: 10px;
+}
+
+.links_texto{
+    color: #1A5C37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links_texto:hover{
+    color: white;
+    background: #1A5C37;
+}
+
+div{
+    background-color: #1A5C37;
+    padding: 15px;
+}
+
+footer > p{
+    background-color: #84E1AD;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+h4{
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2FA866;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0;
+}
+
+.decora_plv{
+    color: #1A5C37;
+    font-weight: bold;
+    text-shadow: 3px 2px 7px rgba(0, 0, 0, 0.396)
+}
+
+footer > ul{
+    margin-top: 0;
+    text-align: left;
+    background-color: #84E1AD;
+    margin-bottom: 0;
+}
+
+
+
+li{
+    list-style-image: url('imagens/Ok.ico');
+}
+
+.android_version{
+    text-decoration: underline;
+}
+
+#prg_footer{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 0;
+}
+
+#ult_prg{
+    padding-bottom: 20px;
+}

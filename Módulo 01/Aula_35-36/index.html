@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu próprio servidor</p>
+
+    <video controls width="700" poster="imagens/Thumb.png">
+        <source src="videos/video_teste.mp4" type="video/mp4">
+        <source src="videos/Video Teste4.mkv" type="video/mp4">
+        <source src="videos/Video Teste3.webm" type="video/webm">
+    </video>
+
+    <!-- atributo posters serve para colocar a thumb ou capa do video -->
+
+    <h1>Iserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PRVuft7CpcA?si=kLsmQr_rL0aqXnUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/46791959?h=c68076e384&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>

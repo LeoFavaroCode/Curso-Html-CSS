@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+table{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.pri_linha{
+    background-color: rgba(211, 211, 211, 0.547);
+}

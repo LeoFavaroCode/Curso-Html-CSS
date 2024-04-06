@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        /* 
+            Simbologia de CSS
+
+            # = id (Aula 21)
+            . = class (Aula 21)
+            : =  pseudo-class
+            :: = pseudo-element
+            > = children (Aula 21)
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            background-color: black;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://github.com/LeoFavarodev" target="_blank">Repositório Git hub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/leonardo-fávaro-b05924233/">Linkedln</a></li>
+    </ul>
+</body>
+</html>

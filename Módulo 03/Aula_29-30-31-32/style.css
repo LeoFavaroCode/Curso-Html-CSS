@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 500px;
+    position: relative;
+}
+
+caption{
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+thead, tfoot{
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+thead tr th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+    tbody tr:nth-child(odd){
+    /* Odd significa impar, ou seja, todas as linhas que forem impares, ficaram com o fundo cinza, caso queira fazer a mesma coisa com as */
+    /* linhas pares, utilize even. */
+    background-color: lightgray;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.num{
+    text-align: right;
+}
+
+#populacao{
+    width: 130px;
+}
